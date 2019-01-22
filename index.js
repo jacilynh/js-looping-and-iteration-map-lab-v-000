@@ -1,16 +1,14 @@
-function lowerCaseDrivers(x) {
-  return x.map(function(driver) {
-    return driver.toLowerCase();
-  });
+function lowerCaseDrivers(drivers) {
+  return drivers.map(driver => driver.toLowerCase() ); 
 }
 
-function nameToAttributes(x) {
-  return x.map(function(driver) {
-    return ""
-  }
+// function nameToAttributes(x) {
+//   return x.map(function(driver) {
+//     return ""
+//   }
   
-  )
-}
+//   )
+// }
 
 
 
